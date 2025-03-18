@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3 Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Adult Census Data (updated 8 years ago)</h1>
+        <h2 class="subtitle">Interactive Visualization Dashboard</h2>
+        
+        <div id="controls" class="controls">
+            <label for="dropdown">Select a variable:</label>
+            <select id="dropdown"></select>
+            <button id="toggle">Toggle Orientation</button>
+            <!-- The JS will inject chart-type-controls, axis-controls, and axis-display here -->
+        </div>
+        
+        <svg width="800" height="600"></svg>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
